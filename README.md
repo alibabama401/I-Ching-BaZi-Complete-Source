@@ -1,4 +1,4 @@
-# Zhouyi-Bagua
+# Zhouyi-Bagua  周易八卦， 排盘，四柱八字，七政四余，紫微斗数源码
 周易八卦源代码，包括四柱八字，刑冲关系，神煞，奇门遁甲，七政四余排盘，大六壬等各种周易算法的代码，十多年的精心研究，可以二次开发，是专业占卜师的良师益友。Telegram:@alibabama401
 ![屏幕截图 2024-10-29 115251](https://github.com/user-attachments/assets/2dbc17e4-ce11-4520-a514-288d017570f7)
 ![屏幕截图 2024-10-29 114720](https://github.com/user-attachments/assets/263e526f-bb7c-4661-90ab-2725e06b307d)
