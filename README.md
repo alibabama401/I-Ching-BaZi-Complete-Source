@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪷 周易八卦排盘完整源码 | 周易八卦排盤完整源碼 |周易源码 | I-Ching Divination Complete Source
+# 🪷 周易八卦排盘完整源码 | 周易八卦排盤完整源碼 |周易源码 |周易排盘| I-Ching Divination Complete Source
 
 **四柱八字 · 奇門遁甲 · 紫微斗數 · 大六壬 · 七政四餘 · 神煞 · 刑沖關係**
 
