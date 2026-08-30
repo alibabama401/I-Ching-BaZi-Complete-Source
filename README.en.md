@@ -33,6 +33,15 @@ This repository focuses on **I Ching BaZi Complete Source**. It can be used to b
 
 ![I Ching Bazi complete source 五行分析 product screenshot](docs/assets/Screenshots/008wuxing.png)
 
+## 📁 联系 | 📞 Contact
+
+
+📧 Email: ttpoker40@gmail.com
+
+💬 Telegram: @alibabama401
+
+
+
 ## Core Features
 
 - Bazi chart calculation, Five Elements analysis, annual luck analysis, and traditional culture content presentation
@@ -48,17 +57,7 @@ This repository focuses on **I Ching BaZi Complete Source**. It can be used to b
 - Online chart calculation, consultation, and content platforms
 - GitHub Pages homepage and search engine optimization
 
-## GitHub Pages
 
-The project homepage file is located at `docs/index.html`. For GitHub Pages, use:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /docs
-
-Published URL:
-
-https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/
 
 ## Keywords
 
