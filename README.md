@@ -1,12 +1,18 @@
 <div align="center">
 
-# 🪷 周易八卦排盘完整源码 | 周易八卦排盤源碼 |周易源码 |周易排盘| I-Ching Divination Complete Source
+# 周易八字排盘完整源码｜I Ching BaZi Complete Source
+
+
+
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+本项目是面向周易八卦、四柱八字、奇门遁甲、紫微斗数、大六壬、七政四余、五行分析和传统文化应用的完整源码项目，适合用于产品展示、技术评估、二次开发、私有化部署和 GitHub Pages 搜索优化。
 
 **四柱八字 · 奇門遁甲 · 紫微斗數 · 大六壬 · 七政四餘 · 神煞 · 刑沖關係**
 
 [![Contact](https://img.shields.io/badge/联系-Telegram-blue.svg)](https://t.me/alibabama401)
 
-**简体中文 · 繁體中文 · English**
+
 
 </div>
 
@@ -48,12 +54,36 @@
 
 ---
 
+## 适用场景
+
+- 周易八字系统源码展示
+- 传统文化 AI 工具与命理软件项目
+
+- 
 ## 📸 界面截图 | Screenshots
 
 
 
 | 八字排盘 | 紫微斗数 | 奇门遁甲 |
 |:---:|:---:|:---:|
+
+![周易八字完整源码 百支排盘 产品截图](docs/assets/Screenshots/001baizhipaipan.png)
+
+![周易八字完整源码 大六壬 产品截图](docs/assets/Screenshots/002daliuren.png)
+
+![周易八字完整源码 流年分析 产品截图](docs/assets/Screenshots/003liunian.png)
+
+![周易八字完整源码 排盘系统 产品截图](docs/assets/Screenshots/004paipan.png)
+
+![周易八字完整源码 七政四余 2 产品截图](docs/assets/Screenshots/005qizheng2.png)
+
+![周易八字完整源码 七政四余 产品截图](docs/assets/Screenshots/006qizhengsiyu.png)
+
+![周易八字完整源码 五极八字 产品截图](docs/assets/Screenshots/007wujibazi.png)
+
+![周易八字完整源码 五行分析 产品截图](docs/assets/Screenshots/008wuxing.png)
+
+/////////////////////////////////////
 ![屏幕截图 2024-10-29 115251](https://github.com/user-attachments/assets/2dbc17e4-ce11-4520-a514-288d017570f7)
 ![屏幕截图 2024-10-29 114720](https://github.com/user-attachments/assets/263e526f-bb7c-4661-90ab-2725e06b307d)
 ![屏幕截图 2024-10-29 114655](https://github.com/user-attachments/assets/db4f9777-e345-41cf-897b-ecaa5ab800ab)
@@ -63,13 +93,16 @@
 ![屏幕截图 2024-10-29 115350](https://github.com/user-attachments/assets/c4de6fb9-f158-4cdb-8037-0e856424bc36)
 ---
 
-## 📁 源码结构 | 源碼結構 | Source Code Structure
+## 📁 联系 | 📞 Contact
 
 
-📞 Contact
-🔥 Get full source code & live demo now
 
 📧 Email: ttpoker40@gmail.com
 💬 Telegram: @alibabama401
 
 👉 Message now to get pricing & demo
+
+## 关键词
+
+周易源码、八字源码、八字排盘系统、周易占卜源码、五行分析、七政四余、大六壬、I Ching source code、Bazi complete source、Chinese metaphysics software。
+
