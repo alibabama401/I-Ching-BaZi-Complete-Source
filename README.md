@@ -59,31 +59,12 @@
 - 周易八字系统源码展示
 - 传统文化 AI 工具与命理软件项目
 
-- 
+
 ## 📸 界面截图 | Screenshots
-
-
 
 | 八字排盘 | 紫微斗数 | 奇门遁甲 |
 |:---:|:---:|:---:|
 
-![周易八字完整源码 百支排盘 产品截图](docs/assets/Screenshots/001baizhipaipan.png)
-
-![周易八字完整源码 大六壬 产品截图](docs/assets/Screenshots/002daliuren.png)
-
-![周易八字完整源码 流年分析 产品截图](docs/assets/Screenshots/003liunian.png)
-
-![周易八字完整源码 排盘系统 产品截图](docs/assets/Screenshots/004paipan.png)
-
-![周易八字完整源码 七政四余 2 产品截图](docs/assets/Screenshots/005qizheng2.png)
-
-![周易八字完整源码 七政四余 产品截图](docs/assets/Screenshots/006qizhengsiyu.png)
-
-![周易八字完整源码 五极八字 产品截图](docs/assets/Screenshots/007wujibazi.png)
-
-![周易八字完整源码 五行分析 产品截图](docs/assets/Screenshots/008wuxing.png)
-
-/////////////////////////////////////
 ![屏幕截图 2024-10-29 115251](https://github.com/user-attachments/assets/2dbc17e4-ce11-4520-a514-288d017570f7)
 ![屏幕截图 2024-10-29 114720](https://github.com/user-attachments/assets/263e526f-bb7c-4661-90ab-2725e06b307d)
 ![屏幕截图 2024-10-29 114655](https://github.com/user-attachments/assets/db4f9777-e345-41cf-897b-ecaa5ab800ab)
@@ -96,8 +77,8 @@
 ## 📁 联系 | 📞 Contact
 
 
-
 📧 Email: ttpoker40@gmail.com
+
 💬 Telegram: @alibabama401
 
 👉 Message now to get pricing & demo
