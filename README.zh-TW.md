@@ -33,32 +33,33 @@
 
 ![周易八字完整原始碼 五行分析 產品截圖](docs/assets/Screenshots/008wuxing.png)
 
+
+
+## 📁 联系 | 📞 Contact
+
+
+📧 Email: ttpoker40@gmail.com
+
+💬 Telegram: @alibabama401
+
+
+
 ## 核心功能
 
 - 八字排盤、五行分析、流年分析和傳統文化內容展示
 - 大六壬、七政四餘、周易八卦等術數應用場景
 - 適合產品介紹頁、技術文件和多語言 README 優化
 - 支援二次開發、介面優化、功能擴展和私有化部署
-- 可透過 GitHub Pages 發布專案首頁，方便 Google 和 Bing 收錄
+
 
 ## 適用場景
 
 - 周易八字系統原始碼展示
 - 傳統文化 AI 工具與命理軟體專案
 - 線上排盤、測算、諮詢和內容平台
-- GitHub Pages 專案首頁與搜尋引擎優化
 
-## GitHub Pages
 
-專案首頁檔案位於 `docs/index.html`。如果使用 GitHub Pages，推薦設定：
 
-- Source：Deploy from a branch
-- Branch：main
-- Folder：/docs
-
-發布地址：
-
-https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/
 
 ## 關鍵詞
 
