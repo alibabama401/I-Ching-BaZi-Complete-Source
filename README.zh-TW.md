@@ -1,70 +1,45 @@
-# 周易八字排盤完整原始碼｜I Ching BaZi Complete Source
+# 八字排盤原始碼｜四柱、十神、藏干、五行與大運流年
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[主 README](README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [繁體中文產品頁](https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/zh-tw/)
 
-本專案是面向周易八卦、四柱八字、奇門遁甲、紫微斗數、大六壬、七政四餘、五行分析和傳統文化應用的完整原始碼專案，適合用於產品展示、技術評估、二次開發、私有化部署和 GitHub Pages 搜尋優化。
+本倉庫展示周易八字排盤產品與部分原始碼。根目錄 `index.html` 是可直接開啟的 HTML/JavaScript 示範，包含姓名、性別、出生日期時間輸入，以及四柱干支、十神、藏干、納音、太陽時提示和大運表格。Java 檔案展示使用者、訂單、排盤記錄、任務結果及五行設定的服務介面。
 
-## 閱讀與下載
+## 功能範圍
 
-- 線上首頁：https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/
-- GitHub 倉庫：https://github.com/alibabama401/I-Ching-BaZi-Complete-Source
-- 建議先閱讀本 README，再查看 `docs/index.html` 發布後的產品首頁。
-- 如果需要下載原始碼，請在倉庫右上角點擊 `Code`，再選擇 `Download ZIP`。
+| 功能 | 可核驗內容 |
+|---|---|
+| 四柱八字 | 年柱、月柱、日柱、時柱頁面展示 |
+| 十神藏干 | 十神映射與地支藏干資料 |
+| 納音五行 | 納音展示、五行設定介面和產品截圖 |
+| 時間處理 | 出生時間、時區、經緯度和太陽時提示 |
+| 大運流年 | 大運年齡、干支和年份表格示例 |
+| 資料服務 | 使用者、排盤記錄、任務、訂單及五行設定介面 |
 
-## 專案定位
+## 操作流程
 
-本倉庫聚焦 **I Ching BaZi Complete Source**，可用於建構線上八字排盤、周易八卦、五行分析、流年分析、七政四餘、大六壬和傳統文化 AI 決策輔助系統。
+開啟 `index.html`，選擇出生日期時間與性別，點擊「開始排盤」，然後查看四柱、十神、藏干、納音和大運表格。該頁面適合產品原型和程式碼閱讀；其中部分曆法邏輯為簡化或佔位實作。
 
 ## 產品截圖
 
-![周易八字完整原始碼 百支排盘 產品截圖](docs/assets/Screenshots/001baizhipaipan.png)
+| 八字排盤 | 流年分析 |
+|---|---|
+| ![八字排盤原始碼介面](docs/assets/Screenshots/001baizhipaipan.png) | ![八字流年分析介面](docs/assets/Screenshots/003liunian.png) |
+| **七政四餘** | **五行分析** |
+| ![七政四餘排盤介面](docs/assets/Screenshots/006qizhengsiyu.png) | ![五行分析產品介面](docs/assets/Screenshots/008wuxing.png) |
 
-![周易八字完整原始碼 大六壬 產品截圖](docs/assets/Screenshots/002daliuren.png)
+## 技術與原始碼
 
-![周易八字完整原始碼 流年分析 產品截圖](docs/assets/Screenshots/003liunian.png)
+- `index.html`：HTML、CSS、原生 JavaScript 互動示範。
+- `PanRecordService.java`：排盤記錄服務介面。
+- `MoiraRecordService.java`：多術數資料與匯出方法簽名。
+- `MoiraTaskService.java`：任務執行、狀態和排序介面。
+- `UserService.java` / `UserOrderService.java`：使用者及訂單服務介面。
+- `docs/`：簡體、繁體、英文 GitHub Pages 頁面與搜尋引擎檔案。
 
-![周易八字完整原始碼 排盘系统 產品截圖](docs/assets/Screenshots/004paipan.png)
+## 公開範圍
 
-![周易八字完整原始碼 七政四余 2 產品截圖](docs/assets/Screenshots/005qizheng2.png)
+目前 Java 檔案並非完整工程，缺少實作類別、領域模型、依賴和建置設定。截圖展示產品功能場景，不等同於對應演算法全部開源。評估與二次開發時請以實際檔案和授權範圍為準。
 
-![周易八字完整原始碼 七政四余 產品截圖](docs/assets/Screenshots/006qizhengsiyu.png)
+## 聯絡
 
-![周易八字完整原始碼 五极八字 產品截圖](docs/assets/Screenshots/007wujibazi.png)
-
-![周易八字完整原始碼 五行分析 產品截圖](docs/assets/Screenshots/008wuxing.png)
-
-
-
-## 📁 联系 | 📞 Contact
-
-
-📧 Email: ttpoker40@gmail.com
-
-💬 Telegram: @alibabama401
-
-
-
-## 核心功能
-
-- 八字排盤、五行分析、流年分析和傳統文化內容展示
-- 大六壬、七政四餘、周易八卦等術數應用場景
-- 適合產品介紹頁、技術文件和多語言 README 優化
-- 支援二次開發、介面優化、功能擴展和私有化部署
-
-
-## 適用場景
-
-- 周易八字系統原始碼展示
-- 傳統文化 AI 工具與命理軟體專案
-- 線上排盤、測算、諮詢和內容平台
-
-
-
-
-## 關鍵詞
-
-周易原始碼、八字原始碼、八字排盤系統、周易占卜原始碼、五行分析、七政四餘、大六壬、I Ching source code、Bazi complete source、Chinese metaphysics software。
-
-## 免責聲明
-
-本專案用於傳統文化軟體展示、技術研究、產品評估和合規應用開發。內容僅供參考，不構成確定性預測，也不構成醫療、法律、金融或人生決策建議。
+[Email](mailto:ttpoker40@gmail.com) · [Telegram @alibabama401](https://t.me/alibabama401) · [GitHub 倉庫](https://github.com/alibabama401/I-Ching-BaZi-Complete-Source)

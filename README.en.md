@@ -1,68 +1,79 @@
-# I Ching BaZi Complete Source
+# BaZi Chart Source Code | Four Pillars, Ten Gods and Five Elements
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[Main README](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English product page](https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/en/)
 
-This project is a complete source code package for I Ching Bagua, Four Pillars Bazi, Qimen Dunjia, Zi Wei Dou Shu, Da Liu Ren, Qi Zheng Si Yu, Five Elements analysis, and traditional culture applications. It is suitable for product presentation, technical evaluation, secondary development, private deployment, and GitHub Pages SEO optimization.
+This repository presents a Chinese astrology product and a partial source-code sample. The root `index.html` is a standalone HTML and JavaScript BaZi chart demo. It accepts a name, gender, birth date and time, then displays the Four Pillars, Ten Gods, hidden stems, Na Yin labels, solar-time information and a fortune-cycle table.
 
-## Reading and Download
+The repository also includes Java service interfaces for users, orders, chart records, task results and Five Elements configuration, together with eight real product screenshots.
 
-- Online homepage: https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/
-- GitHub repository: https://github.com/alibabama401/I-Ching-BaZi-Complete-Source
-- Please read this README first, then check the published product page from `docs/index.html`.
-- To download the source code, click `Code` in the upper-right corner of the repository and choose `Download ZIP`.
+## Features
 
-## Project Positioning
+| Feature | Verifiable public content |
+|---|---|
+| BaZi Four Pillars | Year, month, day and hour pillar UI |
+| Ten Gods and hidden stems | Mapping logic and branch data in the browser demo |
+| Na Yin and Five Elements | Na Yin labels, a configuration interface and screenshots |
+| Birth-time input | Date, time zone, coordinates and solar-time indicators |
+| Fortune cycles | Example age ranges, stem-branch cycles and year intervals |
+| Service boundaries | Java interfaces for users, charts, tasks, orders and settings |
+| Localized pages | Simplified Chinese, Traditional Chinese and English pages |
 
-This repository focuses on **I Ching BaZi Complete Source**. It can be used to build online Bazi chart tools, I Ching Bagua applications, Five Elements analysis, annual luck analysis, Qi Zheng Si Yu, Da Liu Ren, and traditional culture AI decision-support systems.
+## How the demo works
 
-## Product Screenshots
+```mermaid
+flowchart LR
+  A[Birth date, time and gender] --> B[Time and solar-time handling]
+  B --> C[Four Pillars display]
+  C --> D[Ten Gods, hidden stems and Na Yin]
+  D --> E[Fortune-cycle table]
+```
 
-![I Ching Bazi complete source 百支排盘 product screenshot](docs/assets/Screenshots/001baizhipaipan.png)
+Open `index.html` in a browser, enter the birth information, select a gender and choose **开始排盘**. The page updates the Four Pillars and related sections without a build step.
 
-![I Ching Bazi complete source 大六壬 product screenshot](docs/assets/Screenshots/002daliuren.png)
+## Product screenshots
 
-![I Ching Bazi complete source 流年分析 product screenshot](docs/assets/Screenshots/003liunian.png)
+| BaZi chart | Da Liu Ren |
+|---|---|
+| ![BaZi Four Pillars source code product screen](docs/assets/Screenshots/001baizhipaipan.png) | ![Da Liu Ren chart product screen](docs/assets/Screenshots/002daliuren.png) |
+| **Annual fortune cycles** | **Chart system** |
+| ![BaZi annual fortune analysis screen](docs/assets/Screenshots/003liunian.png) | ![Chinese astrology chart system screen](docs/assets/Screenshots/004paipan.png) |
+| **Qi Zheng Si Yu** | **Five Elements analysis** |
+| ![Qi Zheng Si Yu chart screen](docs/assets/Screenshots/006qizhengsiyu.png) | ![Five Elements analysis screen](docs/assets/Screenshots/008wuxing.png) |
 
-![I Ching Bazi complete source 排盘系统 product screenshot](docs/assets/Screenshots/004paipan.png)
+## Technology and repository map
 
-![I Ching Bazi complete source 七政四余 2 product screenshot](docs/assets/Screenshots/005qizheng2.png)
+| File or area | Purpose |
+|---|---|
+| `index.html` | HTML, CSS and vanilla JavaScript chart demo |
+| `PanRecordService.java` | Chart-record service interface |
+| `MoiraRecordService.java` | Multi-system data and export method signatures |
+| `MoiraTaskService.java` | Task execution, status and ordering interface |
+| `UserService.java` | Registration, login, profile and coordinate methods |
+| `WuXingConfigService.java` | Five Elements configuration interface |
+| `docs/` | Localized GitHub Pages site, screenshots and search files |
 
-![I Ching Bazi complete source 七政四余 product screenshot](docs/assets/Screenshots/006qizhengsiyu.png)
+## Run the public demo
 
-![I Ching Bazi complete source 五极八字 product screenshot](docs/assets/Screenshots/007wujibazi.png)
+```bash
+git clone https://github.com/alibabama401/I-Ching-BaZi-Complete-Source.git
+cd I-Ching-BaZi-Complete-Source
+```
 
-![I Ching Bazi complete source 五行分析 product screenshot](docs/assets/Screenshots/008wuxing.png)
+Open `index.html` in a browser. No package installation is required for the static demo.
 
-## 📁 联系 | 📞 Contact
+## Public scope and limitations
 
+The Java files are interface fragments rather than a complete buildable backend. The root demo contains simplified or placeholder logic for some calendar, Na Yin and fortune-cycle calculations. Product screenshots demonstrate interfaces and use cases; they do not prove that every pictured algorithm is included in the public repository. Production use requires implementations, dependencies, documented calendar rules and tests.
 
-📧 Email: ttpoker40@gmail.com
+## Search terms
 
-💬 Telegram: @alibabama401
+I Ching source code, BaZi source code, BaZi calculator, BaZi chart, Four Pillars of Destiny, Chinese astrology software, Ten Gods, hidden stems, Five Elements, fortune cycles, Zi Wei Dou Shu, Qi Men Dun Jia, Da Liu Ren, Qi Zheng Si Yu.
 
+## License and contact
 
+Read [LICENSE](LICENSE) and [License.md](License.md) before reuse.
 
-## Core Features
+- Email: [ttpoker40@gmail.com](mailto:ttpoker40@gmail.com)
+- Telegram: [@alibabama401](https://t.me/alibabama401)
 
-- Bazi chart calculation, Five Elements analysis, annual luck analysis, and traditional culture content presentation
-- Da Liu Ren, Qi Zheng Si Yu, I Ching Bagua, and other traditional calculation scenarios
-- Suitable for product landing pages, technical documentation, and multilingual README optimization
-- Supports secondary development, UI improvement, feature expansion, and private deployment
-- Can be published through GitHub Pages for Google and Bing indexing
-
-## Use Cases
-
-- Zhouyi and Bazi system source code presentation
-- Traditional culture AI tools and metaphysics software projects
-- Online chart calculation, consultation, and content platforms
-- GitHub Pages homepage and search engine optimization
-
-
-
-## Keywords
-
-I Ching source code, Bazi source code, Bazi chart system, Zhouyi divination source code, Five Elements analysis, Qi Zheng Si Yu, Da Liu Ren, Bazi complete source, Chinese metaphysics software.
-
-## Disclaimer
-
-This project is intended for traditional culture software presentation, technical research, product evaluation, and compliant application development. The content is for reference only and does not constitute deterministic prediction, medical, legal, financial, or life decision advice.
+This repository is for traditional-culture software presentation, technical research and product evaluation. It does not provide medical, legal, financial or other professional advice.

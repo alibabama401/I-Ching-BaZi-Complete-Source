@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>八字排盘专业版 - 四柱十神/大运流年/换运时间 | 周易玄学排盘演示</title>
+    <title>八字排盘源码演示｜四柱、十神、藏干、纳音与大运流年</title>
+    <meta name="description" content="可交互的八字排盘源码演示：输入出生日期与性别，查看四柱干支、十神、藏干、纳音、真太阳时和大运流年表格，并浏览真实产品截图。">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="八字排盘源码演示｜四柱、十神、藏干、纳音与大运流年">
+    <meta property="og:description" content="HTML、CSS 和原生 JavaScript 八字排盘演示与真实产品截图。">
+    <meta property="og:image" content="docs/assets/Screenshots/004paipan.png">
     <style>
         * {
             box-sizing: border-box;
@@ -217,9 +223,25 @@
             font-size: 0.7rem;
             color: #b8a281;
         }
+        .project-intro, .product-section {
+            background: #fffef7;
+            border: 1px solid #e2d9ce;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 0 0 24px;
+        }
+        .project-intro h2, .product-section h2 { margin: 0 0 10px; color: #3e2a1f; }
+        .project-intro p, .product-section p { line-height: 1.75; color: #5c5145; }
+        .project-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+        .project-links a { color: #5c432b; font-weight: 600; }
+        .product-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+        .product-gallery figure { margin: 0; border: 1px solid #e2d9ce; background: white; padding: 7px; }
+        .product-gallery img { display: block; width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+        .product-gallery figcaption { padding: 8px 4px 2px; color: #6b5035; }
         @media (max-width: 700px) {
             .bazi-ganzhi { font-size: 1.4rem; letter-spacing: 2px; }
             .bazi-grid { gap: 8px; }
+            .product-gallery { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -228,7 +250,7 @@
     <!-- 头部信息 仿图片样式 -->
     <div class="header-card">
         <div class="header-title">
-            <div class="logo">无极天下 <small>· 玄学排盘系统</small></div>
+            <h1 class="logo">无极天下 <small>· 八字排盘源码演示</small></h1>
             <div class="user-info">test@ttpoker.cc <span style="margin-left:12px;">退出登录</span></div>
         </div>
         <div class="config-bar">
@@ -238,6 +260,12 @@
             <span>平太阳时 / 真太阳时: 自动计算</span>
         </div>
     </div>
+
+    <section class="project-intro">
+        <h2>四柱八字排盘演示</h2>
+        <p>本页面使用 HTML、CSS 和原生 JavaScript 展示出生资料输入、四柱干支、十神、地支藏干、纳音和大运表格。它适合八字产品界面原型与代码阅读；节气、纳音、大运年份等部分逻辑为简化或占位实现，正式使用前需要补齐历法规则和测试。</p>
+        <div class="project-links"><a href="https://github.com/alibabama401/I-Ching-BaZi-Complete-Source">GitHub 源码仓库</a><a href="https://alibabama401.github.io/I-Ching-BaZi-Complete-Source/">多语言产品介绍</a><a href="README.en.md">English README</a><a href="README.zh-TW.md">繁體中文 README</a></div>
+    </section>
 
     <!-- 输入区 -->
     <div class="input-card">
@@ -300,6 +328,16 @@
     <div class="info-note" id="extraInfo">
         童限 · 换运计算: 点击排盘后详细显示
     </div>
+    <section class="product-section">
+        <h2>产品功能与真实截图</h2>
+        <p>仓库还展示流年分析、七政四余和五行分析等产品界面。截图说明产品形态，不代表对应完整算法全部公开。</p>
+        <div class="product-gallery">
+            <figure><img src="docs/assets/Screenshots/001baizhipaipan.png" alt="四柱八字排盘产品页面" decoding="async"><figcaption>四柱八字排盘</figcaption></figure>
+            <figure><img src="docs/assets/Screenshots/003liunian.png" alt="八字大运流年分析页面" decoding="async"><figcaption>大运流年分析</figcaption></figure>
+            <figure><img src="docs/assets/Screenshots/006qizhengsiyu.png" alt="七政四余排盘产品页面" decoding="async"><figcaption>七政四余排盘</figcaption></figure>
+            <figure><img src="docs/assets/Screenshots/008wuxing.png" alt="八字五行分析产品页面" decoding="async"><figcaption>五行分析</figcaption></figure>
+        </div>
+    </section>
     <footer>
         八字排盘专业演示 · 四柱/十神/藏干/大运/换运 · 完整商业版请联系 <strong>@alibabama401</strong>
     </footer>
@@ -478,3 +516,4 @@
 </script>
 </body>
 </html>
+
